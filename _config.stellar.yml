@@ -1,0 +1,8 @@
+# 默认生成 Open Graph 标签，如果您不希望生成它，可以在主题配置文件中关闭
+open_graph:
+  enable: true
+  twitter_id: # for open_graph meta
+
+# 根据 tags 作为关键词为每一篇文章在线搜索封面
+article:
+  auto_cover: false

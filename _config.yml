@@ -4,12 +4,12 @@
 
 # Site
 title: 小写的圆周率
-subtitle: ''
-description: ''
-keywords:
 author: 申鹏飞
-language: zh-cn
-timezone: ''
+avatar: https://pic.cnblogs.com/avatar/2493238/20221125215759.png
+favicon: https://shenpengfii.github.io
+language: 
+  - zh-cn
+  - en
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
