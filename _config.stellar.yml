@@ -1,8 +1,10 @@
-# 默认生成 Open Graph 标签，如果您不希望生成它，可以在主题配置文件中关闭
-open_graph:
-  enable: true
-  twitter_id: # for open_graph meta
+logo:
+  avatar: '[https://avatars.githubusercontent.com/u/89719720?v=4](https://github.com/shenpengfii/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
+  title: '[小写的圆周率](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
+  subtitle: '正是江南好风景 | 落花时节又逢君' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
 
-# 根据 tags 作为关键词为每一篇文章在线搜索封面
-article:
-  auto_cover: false
+style:
+  leftbar:
+    background-image: url(https://bizhi1.com/wp-content/uploads/2024/03/bizhi1-03-anime-small.jpg)
+    blur-px: 100px # 模糊半径
+    blur-bg: var(--alpha60) # 模糊颜色

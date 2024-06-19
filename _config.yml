@@ -1,26 +1,11 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
-# Site
-title: 小写的圆周率
-author: 申鹏飞
-avatar: https://pic.cnblogs.com/avatar/2493238/20221125215759.png
-favicon: https://shenpengfii.github.io
-language: 
-  - zh-cn
-  - en
-
-# URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+# 网站链接
 url: http://shenpengfii.github.io
 permalink: :title.html
-permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
-# Directory
+# 文件目录
 source_dir: source
 public_dir: public
 tag_dir: tags
