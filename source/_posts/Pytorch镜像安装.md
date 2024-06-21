@@ -1,5 +1,5 @@
 ---
-title: 比同行教程更好用，最新版Pytorch国内清华源镜像加速安装！
+title: Pytorch 镜像安装
 date: 2024-06-17 16:36:32
 tags:
    - pytorch
@@ -12,11 +12,13 @@ tags:
    - mirror
 ---
 
-# 0. 摘要
+使用清华源镜像安装最新版 pytorch ，内含 CPU 版和 GPU 版的详细安装步骤
+
+<!-- more -->
+
+# 0. 前言
 
 最新版的`Pytorch 2.3.1`缩减了对CUDA Toolkit的版本支持，读者需要检查系统CUDA Toolkit版本是否仍在支持范围之内，否则在安装时会出现报错情况。
-
-其次，本文给出了conda环境中使用清华源镜像、快速安装最新版pytorch的方法介绍。
 
 ## 0.1 导读
 
@@ -57,7 +59,7 @@ conda install pytorch=2.3.1=py3.12_cuda11.8_cudnn8_0 torchvision=0.18.1=py312_cu
 conda install pytorch=2.3.1=py3.12_cuda12.1_cudnn8_0 torchvision=0.18.1=py312_cu121 torchaudio=2.3.1=py312_cu121 pytorch-cuda=12.1 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/win-64 -c nvidia
 ```
 
-# 1. 前情提要
+# 1. 作者声明
 
 这篇文章本不应该出现在网络上，但考虑到本人在查阅镜像安装Pytorch时的种种痛苦经历：
 

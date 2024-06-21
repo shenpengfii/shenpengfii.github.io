@@ -1,10 +1,52 @@
+### 侧边栏 ###
+
+# Logo
 logo:
-  avatar: '[https://avatars.githubusercontent.com/u/89719720?v=4](https://github.com/shenpengfii/)' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
-  title: '[小写的圆周率](/)' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
-  subtitle: '正是江南好风景 | 落花时节又逢君' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
+  avatar: '[https://avatars.githubusercontent.com/u/89719720?v=4](https://github.com/shenpengfii/)'
+  title: '[小写的圆周率](/)'
+  subtitle: '正是江南好风景 | 落花时节又逢君'
+
+# 导航菜单
+menubar:
+  columns: 4
+  items:
+    - id: post
+      theme: '#1BCDFC'
+      icon: solar:documents-bold-duotone
+      title: 博客
+      url: /
+
+### 全局样式 ###
 
 style:
+  prefers_theme: light
+  smooth_scroll: true
+  font-size:
+      root: 15px # 改这个会影响全局所有文字的字号
+      body: 16px # 影响正文区域的字号，如果改成 px 则不受 root 影响
+      code: 85% # 相较于其所在行的文本大小，建议用百分比
+      codeblock: 13px
+  font-family:
+      logo: 'STZhongsong, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+      body: 'STZhongsong, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+      code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+      codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+  border-radius:
+    card-l: 0px # 侧边栏、文章横幅位置的圆角
+    card: 0px # 文章内大部分卡片的圆角
+    bar: 0px # 横条类元素的圆角
+    image: 0px # 图片圆角
+  color:
+    # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
+    background: 'hsl(212 100% 95%)' # 浅色背景颜色
+    block: 'hsl(212 80% 95%)' # 块背景颜色
+    code: 'hsl(220 100% 10%)' # 'hsl(14 100% 48%)' # 行内代码颜色
+    text: 'hsl(0 0% 10%)' # 文本颜色
   leftbar:
-    background-image: url(https://bizhi1.com/wp-content/uploads/2024/03/bizhi1-03-anime-small.jpg)
-    blur-px: 100px # 模糊半径
-    blur-bg: var(--alpha60) # 模糊颜色
+    background-image: 'hsl(212 100% 95%)'
+    blur-px: 0px
+    blur-bg: var(--alpha60)
+  site:
+    background-image: url('/asserts/background.jpg')
+    blur-px: 50px
+    blur-bg: var(--alpha75)

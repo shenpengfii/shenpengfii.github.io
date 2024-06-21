@@ -1,10 +1,14 @@
 ---
-title: Github加速
+title: Github 加速
 date: 2024-06-21 17:05:36
 tags:
     - Github
     - 加速
 ---
+
+手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速
+
+<!-- more -->
 
 # 1. 为什么国内 Github 访问时间长、速度慢？
 
