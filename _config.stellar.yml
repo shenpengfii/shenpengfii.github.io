@@ -22,31 +22,29 @@ style:
   prefers_theme: light
   smooth_scroll: true
   font-size:
-      root: 15px # 改这个会影响全局所有文字的字号
+      root: 16px # 改这个会影响全局所有文字的字号
       body: 16px # 影响正文区域的字号，如果改成 px 则不受 root 影响
-      code: 85% # 相较于其所在行的文本大小，建议用百分比
+      code: 90% # 相较于其所在行的文本大小，建议用百分比
       codeblock: 13px
   font-family:
-      logo: 'STZhongsong, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
-      body: 'STZhongsong, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+      logo: 'STZhongSong, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+      body: 'STZhongSong, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
       code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
       codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   border-radius:
-    card-l: 0px # 侧边栏、文章横幅位置的圆角
-    card: 0px # 文章内大部分卡片的圆角
-    bar: 0px # 横条类元素的圆角
-    image: 0px # 图片圆角
+    card-l: 20px # 侧边栏、文章横幅位置的圆角
+    card: 12px # 文章内大部分卡片的圆角
+    bar: 16px # 横条类元素的圆角
+    image: 6px # 图片圆角
   color:
     # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
-    background: 'hsl(212 100% 95%)' # 浅色背景颜色
-    block: 'hsl(212 80% 95%)' # 块背景颜色
-    code: 'hsl(220 100% 10%)' # 'hsl(14 100% 48%)' # 行内代码颜色
-    text: 'hsl(0 0% 10%)' # 文本颜色
+    background: 'hsl(191, 100%, 85%)' # 浅色背景颜色
+    block: 'hsl(347, 61%, 93%)' # 块背景颜色
+    code: 'hsl(14 100% 30%)' # 'hsl(14 100% 48%)' # 行内代码颜色
+    text: 'hsl(0 0% 0%)' # 文本颜色
   leftbar:
-    background-image: 'hsl(212 100% 95%)'
-    blur-px: 0px
-    blur-bg: var(--alpha60)
+    background-image: 'linear-gradient(45deg, pink, lightblue)'
   site:
     background-image: url('/asserts/background.jpg')
-    blur-px: 50px
-    blur-bg: var(--alpha75)
+    blur-px: 0px
+    blur-bg: var(--alpha50)
