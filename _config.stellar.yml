@@ -25,6 +25,25 @@ menubar:
       title: 社交
       url: /friends/
 
+### 评论区 ###
+
+comments:
+  service: giscus
+  giscus:
+    src: https://giscus.app/client.js
+    data-repo: shenpengfii/shenpengfii.github.io
+    data-category: Announcements
+    data-category-id: DIC_kwDOMB04tc4ChCRi
+    data-mapping: title
+    data-strict: 1
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top # top, bottom
+    data-theme: light_protanopia
+    data-lang: zh-CN
+    data-loading: lazy
+    crossorigin: anonymous
+
 ### 全局样式 ###
 
 style:
@@ -38,8 +57,8 @@ style:
   font-family:
       logo: '"LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
       body: '"LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
-      code: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
-      codeblock: 'Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+      code: '"Fira Code Light", Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
+      codeblock: '"Fira Code", Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   border-radius:
     card-l: 20px # 侧边栏、文章横幅位置的圆角
     card: 12px # 文章内大部分卡片的圆角
@@ -47,7 +66,7 @@ style:
     image: 6px # 图片圆角
   color:
     # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
-    background: 'hsl(191, 100%, 85%)' # 浅色背景颜色
+    background: 'hsl(0, 0%, 100%)' # 浅色背景颜色
     block: 'hsl(347, 61%, 93%)' # 块背景颜色
     code: 'hsl(14 100% 30%)' # 'hsl(14 100% 48%)' # 行内代码颜色
     text: 'hsl(0 0% 0%)' # 文本颜色

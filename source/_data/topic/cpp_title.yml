@@ -1,0 +1,4 @@
+name: C++ STL # 在面包屑导航上会显示较短的名字
+title: C++ STL 实用教程（C++11） # 在列表页会显示完整的专栏标题
+description: 全面介绍 C++11 标准下的常用 STL 容器和算法。
+order_by: -date # 默认是按发布日期倒序排序

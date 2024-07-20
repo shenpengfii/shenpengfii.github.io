@@ -2,6 +2,9 @@
 title: Pytorch 镜像安装教程（Win10/11）
 subtitle: 使用清华源镜像安装最新版 pytorch，含 CPU 版和 GPU 版的详细安装步骤
 date: 2024-07-15 16:36:32
+categories:
+   - 教程
+   - 安装教程
 tags:
    - pytorch
    - 安装
@@ -18,7 +21,7 @@ poster:
    caption: '使用清华源镜像安装最新版 pytorch，含 CPU 版和 GPU 版的详细安装步骤'
 ---
 
-{% quot 一键安装 %}
+## 一键安装
 
 如果你已经对 Pytorch 安装有所了解，只想立刻安装最新版镜像包，那么在这里{% mark 选择你需要的 Pytorch 版本 %}，进入命令行环境运行我提供的命令即可：
 
@@ -44,7 +47,7 @@ poster:
 
 {% endtabs %}
 
-{% quot 前言 %}
+## 前言
 
 {% folding open:false 不得不吐槽一下网上的灌水教程！ color:blue %}
 
@@ -84,7 +87,7 @@ poster:
 
 {% endfolders %}
 
-{% quot 读者自查 %}
+## 读者自查
 
 {% folding open:false 读懂这篇文章，我需要哪些预备知识？ color:green %}
 
@@ -99,7 +102,7 @@ Pytorch 共有 CPU 版和 GPU 版两个发行版本。GPU 版本一般运算速�
 
 在开始安装前，你需要先了解自己的电脑适合安装 CPU 还是 GPU 版的 Pytorch。
 
-{% quot 使用清华源镜像安装Pytorch（Win10/11） %}
+## 使用清华源镜像安装Pytorch（Win10/11）
 
 {% tabs active:1 %}
 

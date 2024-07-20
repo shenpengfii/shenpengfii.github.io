@@ -2,6 +2,9 @@
 title: Github 加速教程
 subtitle: 手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速
 date: 2024-06-21 17:05:36
+categories:
+    - 教程
+    - 配置教程
 tags:
     - Github
     - 加速
