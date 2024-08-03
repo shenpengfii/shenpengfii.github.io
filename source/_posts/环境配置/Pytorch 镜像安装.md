@@ -3,24 +3,22 @@ title: Pytorch 镜像安装教程（Win10/11）
 subtitle: 使用清华源镜像安装最新版 pytorch，含 CPU 版和 GPU 版的详细安装步骤
 date: 2024-07-15 16:36:32
 categories:
-   - 教程
-   - 安装教程
+  - 环境配置
 tags:
-   - pytorch
-   - 安装
-   - 镜像
-   - 加速
-   - 清华源
-   - tsinghua
-   - install
-   - mirror
-cover: /asserts/pytorch/PyTorch.webp
-banner: /asserts/pytorch/PyTorch.webp
+  - pytorch
+  - 安装
+  - 镜像
+  - 加速
+  - 清华源
+  - tsinghua
+  - install
+  - mirror
+cover: /asserts/article/PyTorch.webp
+banner: /asserts/article/PyTorch.webp
 poster:
-   headline: 'Pytorch 镜像安装教程（Win10/11）'
-   caption: '使用清华源镜像安装最新版 pytorch，含 CPU 版和 GPU 版的详细安装步骤'
+  headline: Pytorch 镜像安装教程（Win10/11）
+  caption: 使用清华源镜像安装最新版 pytorch，含 CPU 版和 GPU 版的详细安装步骤
 ---
-
 ## 一键安装
 
 如果你已经对 Pytorch 安装有所了解，只想立刻安装最新版镜像包，那么在这里{% mark 选择你需要的 Pytorch 版本 %}，进入命令行环境运行我提供的命令即可：
@@ -282,7 +280,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 build 编号是 conda 为了区分版本相同、但使用环境不同的包所进一步指定的一段文字编号。
 
-例如：`py3.10_cpu_0`、`py3.11_cpu_0`和`py3.12_cpu_0` 就是三个不同的 build 编号，分别指定了这个包适用于 3.10、3.11 和 3.12 版本的 python。
+例如：`py3.10_cpu_0`、`py3.11_cpu_0` 和 `py3.12_cpu_0` 就是三个不同的 build 编号，分别指定了这个包适用于 3.10、3.11 和 3.12 版本的 python。
 
 {% endfolding %}
 
@@ -376,7 +374,7 @@ pytorch-cuda=12.1
 
 这个 `conda install` 命令安装了四个特定的包，并且指定了从清华源镜像和 nvidia 这两个频道中进行搜索。
 
-在命令行中运行该命令，即可自动开始镜像安装。
+在命令行中运行该命令，即可自动开始镜像安装。如果你需要其他环境的配置方法，参照上述过程配置即可。
 
 {% endtabs %}
 

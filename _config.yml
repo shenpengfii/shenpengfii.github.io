@@ -1,10 +1,8 @@
 # 站点信息
-title: 小写的圆周率
-author: 申鹏飞
+title: 偷本非礼
+author: 偷本非礼
 language:
   - zh-CN
-  - zh-TW
-  - en
 
 # 网站链接
 url: http://shenpengfii.github.io
@@ -21,7 +19,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: "/google83ad25134009f723.html" # 跳过渲染 Google Search Console 文件
+skip_render: ''
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -84,9 +82,7 @@ pagination_dir: page
 ## include:/exclude: options only apply to the 'source/' folder
 include:
 exclude:
-  - '/google83ad25134009f723.html' # 忽略 Google Search Console 文件
 ignore:
-  - '/google83ad25134009f723.html' # 忽略 Google Search Console 文件
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

@@ -3,21 +3,19 @@ title: Github 加速教程
 subtitle: 手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速
 date: 2024-06-21 17:05:36
 categories:
-    - 教程
-    - 配置教程
+  - 环境配置
 tags:
-    - Github
-    - 加速
-cover: /asserts/github/github-logo.jpg
-banner: /asserts/github/github-logo.jpg
+  - Github
+  - 加速
+cover: /asserts/article/github-logo.jpg
+banner: /asserts/article/github-logo.jpg
 poster:
-    headline: 'Github 加速教程'
-    caption: '手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速'
+  headline: Github 加速教程
+  caption: 手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速
 references:
-    - '[ClimbSnail,多种GitHub加速方式,2020-08-07](https://climbsnail.github.io/2020/GithubSpeed/)'
-    - '[天乐404,GitHub访问不了或者很慢的解决办法,2023-11-16](https://cloud.tencent.com/developer/article/2359332)'
+  - "[ClimbSnail,多种GitHub加速方式,2020-08-07](https://climbsnail.github.io/2020/GithubSpeed/)"
+  - "[天乐404,GitHub访问不了或者很慢的解决办法,2023-11-16](https://cloud.tencent.com/developer/article/2359332)"
 ---
-
 {% folding open:false 为什么国内 Github 访问这么慢？ %}
 
 国内网络访问 Github 速度过慢的原因有许多，但其中最直接的原因就是 CND 域名遭到 DNS 污染。
@@ -38,11 +36,8 @@ Content Delivery Network (CDN)，即内容分发网络，依靠部署在各地�
 
 复制下载文件中的全部内容，通过管理员权限粘贴到系统 hosts 文件底部。
 
-{% box 不同操作系统的 hosts 文件地址如下表所示： color:blue child:tabs %}
+{% folding color:blue 不同操作系统的 hosts 文件地址如表所示 %}
 
-{% tabs active:1 align:center %}
-
-<!-- tab 系统 HOST 文件地址 -->
 | 操作系统 | HOST 文件地址 |
 | --- | --- |
 | Windows | `C:\Windows\System32\drivers\etc\hosts` |
@@ -51,9 +46,7 @@ Content Delivery Network (CDN)，即内容分发网络，依靠部署在各地�
 | Android | `/system/etc/hosts` |
 | iOS | `/etc/hosts` |
 
-{% endtabs %}
-
-{% endbox %}
+{% endfolding %}
 
 这样，可高速访问的 Github 网站的 DNS 映射就配置好了。该 DNS 映射的 IP 可能离你较远，初次访问 Github 需要不断刷新，等待几分钟后才能生效。
 
