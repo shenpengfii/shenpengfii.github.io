@@ -14,6 +14,10 @@ banner: /asserts/article/remote-desktop.avif
 poster:
   headline: Windows 远程桌面连接教程
   caption: OpenFrp 内网穿透 + Windows 远程桌面服务，实现低延迟远程桌面控制
+references:
+  - "[Microsoft,如何使用远程桌面](https://support.microsoft.com/zh-cn/windows/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2-5fe128d5-8fb1-7a23-3b8a-41e636865e8c#ID0EDD=Windows_11)"
+  - "[鼎芯码元,体验Windows自带远程桌面 局域网&外网,2022-10-31](https://zhuanlan.zhihu.com/p/578914183)"
+  - "[阿土的炼丹炉,最好用的远程工具：Microsoft remote desktop使用说明,2022-10-23](https://zhuanlan.zhihu.com/p/576313307)"
 ---
 ## 介绍
 
@@ -96,8 +100,6 @@ OpenFrp 是一款由 ZGIT Network 运营的内网穿透产品，提供了丰富�
 
 对于多数个人 PC 来说，每台计算机只有一个本地 Administrator 用户，并且这个用户默认不设密码。当我们需要访问这个 PC 时，直接使用这个用户即可。
 
-{% note 注意 如果你还注册了某个与邮件绑定的联网登录用户，请忽略它，因为这个联网用户不能用于“远程桌面连接”的访问。 color:red %}
-
 现在，我们还需要知道远程计算机的名称，这个名称一般格式为 XXXXXXX-XXXXXXX，当然也可以自定义为其他名称。
 
 右键“此电脑”，选择属性。随后，请你查看某个叫做“设备名称”或“计算机名”的条目，将它也保存起来，现在你就已经得到了远程桌面的登录名和密码了：
@@ -107,6 +109,8 @@ OpenFrp 是一款由 ZGIT Network 运营的内网穿透产品，提供了丰富�
 | XXXXXXX-XXXXXXX\Administrator |     |
 
 注意，这里的用户名实际上是用计算机名和 Administrator 拼接得到的，中间要用一个 `\` 符号隔开；而密码为空，意味着在登录时你不需要填写任何内容。
+
+{% note 注意 如果你还注册了某个与邮件绑定的联网登录用户，也可以使用该账户登录。此时，用户名为你的你的微软账户邮箱，即 xxx@outlook.com；密码则为邮箱密码。 color:blue %}
 
 {% endtimeline %}
 
