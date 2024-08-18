@@ -1,5 +1,5 @@
 ---
-title: Windows 远程桌面连接教程
+title: 偷本非礼 | Windows 远程桌面连接教程
 subtitle: OpenFrp 内网穿透 + Windows 远程桌面服务，实现低延迟远程桌面控制
 date: 2024-07-28 22:16:32
 categories:
@@ -9,8 +9,8 @@ tags:
   - 内网穿透
   - 远程桌面
   - Windows
-cover: /asserts/article/remote-desktop.avif
-banner: /asserts/article/remote-desktop.avif
+cover: https://tvax2.sinaimg.cn/large/008kS6srly1hss61dg8b1j318g0tnk3e.jpg
+banner: https://tvax2.sinaimg.cn/large/008kS6srly1hss61dg8b1j318g0tnk3e.jpg
 poster:
   headline: Windows 远程桌面连接教程
   caption: OpenFrp 内网穿透 + Windows 远程桌面服务，实现低延迟远程桌面控制

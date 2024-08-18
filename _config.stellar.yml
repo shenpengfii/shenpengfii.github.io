@@ -73,7 +73,7 @@ style:
   leftbar:
     background-image: 'linear-gradient(45deg, pink, blue)'
   site:
-    background-image: url('/asserts/background.jpg')
+    background-image: url('https://tvax1.sinaimg.cn/large/008kS6srly1hss5yr0vupj30zk0k0gmi.jpg')
     blur-px: 0px
     blur-bg: var(--alpha50)
 
@@ -82,3 +82,9 @@ style:
 article:
   auto_cover: false
   share: [wechat, weibo, email, link]
+
+### 插件 ###
+tag_plugins:
+  # image 标签
+  image:
+    fancybox: true

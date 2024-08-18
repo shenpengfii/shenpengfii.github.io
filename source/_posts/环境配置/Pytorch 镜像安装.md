@@ -1,5 +1,5 @@
 ---
-title: Pytorch 镜像安装教程（Win10/11）
+title: 偷本非礼 | Pytorch 镜像安装教程（Win10/11）
 subtitle: 使用清华源镜像安装最新版 pytorch，含 CPU 版和 GPU 版的详细安装步骤
 date: 2024-07-15 16:36:32
 categories:
@@ -13,8 +13,8 @@ tags:
   - tsinghua
   - install
   - mirror
-cover: /asserts/article/PyTorch.webp
-banner: /asserts/article/PyTorch.webp
+cover: https://tvax3.sinaimg.cn/large/008kS6srly1hss61d2aedj31hc0u07oy.jpg
+banner: https://tvax3.sinaimg.cn/large/008kS6srly1hss61d2aedj31hc0u07oy.jpg
 poster:
   headline: Pytorch 镜像安装教程（Win10/11）
   caption: 使用清华源镜像安装最新版 pytorch，含 CPU 版和 GPU 版的详细安装步骤

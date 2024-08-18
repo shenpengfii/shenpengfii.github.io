@@ -1,5 +1,5 @@
 ---
-title: Github 加速教程
+title: 偷本非礼 | Github 加速教程
 subtitle: 手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速
 date: 2024-06-21 17:05:36
 categories:
@@ -7,8 +7,8 @@ categories:
 tags:
   - Github
   - 加速
-cover: /asserts/article/github-logo.jpg
-banner: /asserts/article/github-logo.jpg
+cover: https://tvax3.sinaimg.cn/large/008kS6srly1hss61cps8jj30nm0ergm9.jpg
+banner: https://tvax3.sinaimg.cn/large/008kS6srly1hss61cps8jj30nm0ergm9.jpg
 poster:
   headline: Github 加速教程
   caption: 手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速
