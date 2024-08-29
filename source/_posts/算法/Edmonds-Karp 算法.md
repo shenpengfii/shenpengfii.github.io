@@ -4,6 +4,8 @@ topic: algo_topic
 title: Edmonds-Karp 算法
 subtitle: 介绍用于最大流问题的 Edmonds-Karp C++ 实现
 date: 2024-08-25 11:04:00
+categories:
+  - 算法
 tags:
   - Edmonds-Karp
   - Ford-Fulkerson
@@ -25,7 +27,7 @@ references:
 
 在 Edmonds-Karp 算法中，我们首先从网络容量限制中导出初始的残存网络，然后不断使用 BFS 搜索增广路径，直到无法找到增广路径为止。在每次增广路径找到后，我们沿着增广路径增广网络流。由于残存流（增广路径的流）对流的递增的值，等同于流的值加上残存流的值，因此我们可以通过不断重复增广路径的过程，直到无法找到增广路径为止，得到最大流。
 
-Edmonds-Karp 算法的时间复杂度为 $O(V^2 E)$，其中 $V$ 表示顶点数，$E$ 表示边数。
+Edmonds-Karp 算法的时间复杂度为 $O(VE^2)$，其中 $|V|$ 表示顶点数，$|E|$ 表示边数。
 
 ## 实现方法
 
@@ -59,6 +61,6 @@ Edmonds-Karp 算法的时间复杂度为 $O(V^2 E)$，其中 $V$ 表示顶点数
 
 {% endtimeline %}
 
-## 代码实例
+## 代码实现
 
 [P2740 【[USACO4.2]草地排水Drainage Ditches】 C++ 代码](https://www.luogu.com.cn/record/174893427)
