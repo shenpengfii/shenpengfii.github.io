@@ -1,5 +1,5 @@
 ---
-title: 偷本非礼 | VSCode + CMake + MinGW C++ 工具链配置
+title: VSCode + CMake + MinGW C++ 工具链配置
 subtitle: Windows 环境下使用 VSCode 组织 C++ 工程，并通过 CMake 调用 MinGW 编译（不使用 MSVC 编译器）
 date: 2024-08-18 16:47:12
 categories:
@@ -9,16 +9,17 @@ tags:
   - CMake
   - MinGW
   - C/C++
-cover: https://tvax1.sinaimg.cn/large/008kS6srly1hss69k0ocdj31f40v57rp.jpg
-banner: https://tvax1.sinaimg.cn/large/008kS6srly1hss69k0ocdj31f40v57rp.jpg
-poster:
-  headline: VSCode + CMake + MinGW C++ 编译工具链配置
-  caption: Windows 环境下使用 VSCode 组织 C++ 工程，并通过 CMake 调用 MinGW 编译（不使用 MSVC 编译器）
 references:
   - "[Upppping,用VSCode和CMake编写调试C/C++,2019-07-22](https://www.jianshu.com/p/c3806d2ad1f8)"
   - "[svchao,windows下使用Mingw执行make编译,2021-08-26](https://www.cnblogs.com/svchao/p/15189660.html)"
   - "[VSCode CMake Tools 文档](https://github.com/microsoft/vscode-cmake-tools/blob/main/docs)"
 ---
+
+<p id='brief'>Windows 环境下使用 VSCode 组织 C++ 工程，并通过 CMake 调用 MinGW 编译（不使用 MSVC 编译器）</p>
+
+<!-- more -->
+<script>document.getElementById('brief').remove();</script>
+
 ## 前言
 
 在用 VSCode 官方提供的 C/C++ 插件编译代码时，经常碰到以下两个常见的问题：

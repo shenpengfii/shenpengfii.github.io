@@ -12,18 +12,7 @@ logo:
 
 # 导航菜单
 menubar:
-  columns: 4
-  items:
-    - id: post
-      theme: '#1BCDFC'
-      icon: solar:documents-bold-duotone
-      title: 博客
-      url: /
-    - id: social
-      theme: '#F44336'
-      icon: solar:chat-square-like-bold-duotone
-      title: 社交
-      url: /friends/
+  columns: 0
 
 ### 评论区 ###
 
@@ -51,7 +40,7 @@ style:
   smooth_scroll: true
   font-size:
       root: 16px # 改这个会影响全局所有文字的字号
-      body: 17px # 影响正文区域的字号，如果改成 px 则不受 root 影响
+      body: 16px # 影响正文区域的字号，如果改成 px 则不受 root 影响
       code: 90% # 相较于其所在行的文本大小，建议用百分比
       codeblock: 13px
   font-family:
@@ -64,18 +53,14 @@ style:
     card: 12px # 文章内大部分卡片的圆角
     bar: 16px # 横条类元素的圆角
     image: 6px # 图片圆角
-  color:
+  # color:
     # 动态颜色（会根据明暗主题重设明度值，只用关心色相和饱和度即可）
-    background: 'hsl(0, 0%, 100%)' # 浅色背景颜色
-    block: 'hsl(347, 61%, 93%)' # 块背景颜色
-    code: 'hsl(14 100% 30%)' # 'hsl(14 100% 48%)' # 行内代码颜色
-    text: 'hsl(0 0% 0%)' # 文本颜色
+    # background: 'hsl(0, 0%, 100%)' # 浅色背景颜色
+    # block: 'hsl(347, 61%, 93%)' # 块背景颜色
+    # code: 'hsl(14 100% 30%)' # 'hsl(14 100% 48%)' # 行内代码颜色
+    # text: 'hsl(0 0% 0%)' # 文本颜色
   leftbar:
-    background-image: 'linear-gradient(45deg, pink, blue)'
-  site:
-    background-image: url('https://ooo.0x0.ooo/2024/08/18/Oty0Zs.jpg')
-    blur-px: 0px
-    blur-bg: var(--alpha50)
+    background-image: linear-gradient(45deg, hsl(211 20% 98%), hsl(210 20% 98%))
 
 ### 文章配置 ###
 

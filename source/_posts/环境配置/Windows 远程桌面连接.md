@@ -1,5 +1,5 @@
 ---
-title: 偷本非礼 | Windows 远程桌面连接教程
+title: Windows 远程桌面连接教程
 subtitle: OpenFrp 内网穿透 + Windows 远程桌面服务，实现低延迟远程桌面控制
 date: 2024-07-28 22:16:32
 categories:
@@ -9,17 +9,17 @@ tags:
   - 内网穿透
   - 远程桌面
   - Windows
-cover: https://tvax2.sinaimg.cn/large/008kS6srly1hss61dg8b1j318g0tnk3e.jpg
-banner: https://tvax2.sinaimg.cn/large/008kS6srly1hss61dg8b1j318g0tnk3e.jpg
-poster:
-  headline: Windows 远程桌面连接教程
-  caption: OpenFrp 内网穿透 + Windows 远程桌面服务，实现低延迟远程桌面控制
 references:
   - "[Microsoft,如何使用远程桌面](https://support.microsoft.com/zh-cn/windows/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2-5fe128d5-8fb1-7a23-3b8a-41e636865e8c#ID0EDD=Windows_11)"
   - "[鼎芯码元,体验Windows自带远程桌面 局域网&外网,2022-10-31](https://zhuanlan.zhihu.com/p/578914183)"
   - "[阿土的炼丹炉,最好用的远程工具：Microsoft remote desktop使用说明,2022-10-23](https://zhuanlan.zhihu.com/p/576313307)"
 ---
 ## 介绍
+
+<p id='brief'>OpenFrp 内网穿透 + Windows 远程桌面服务，实现低延迟远程桌面控制</p>
+
+<!-- more -->
+<script>document.getElementById('brief').remove();</script>
 
 {% folders %}
 

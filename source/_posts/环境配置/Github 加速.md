@@ -1,5 +1,5 @@
 ---
-title: 偷本非礼 | Github 加速教程
+title: Github 加速教程
 subtitle: 手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速
 date: 2024-06-21 17:05:36
 categories:
@@ -7,15 +7,16 @@ categories:
 tags:
   - Github
   - 加速
-cover: https://tvax3.sinaimg.cn/large/008kS6srly1hss61cps8jj30nm0ergm9.jpg
-banner: https://tvax3.sinaimg.cn/large/008kS6srly1hss61cps8jj30nm0ergm9.jpg
-poster:
-  headline: Github 加速教程
-  caption: 手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速
 references:
   - "[ClimbSnail,多种GitHub加速方式,2020-08-07](https://climbsnail.github.io/2020/GithubSpeed/)"
   - "[天乐404,GitHub访问不了或者很慢的解决办法,2023-11-16](https://cloud.tencent.com/developer/article/2359332)"
 ---
+
+<p id='brief'>手动配置 Github 的最新纯净 DNS 映射，实现 Github 访问加速</p>
+
+<!-- more -->
+<script>document.getElementById('brief').remove();</script>
+
 {% folding open:false 为什么国内 Github 访问这么慢？ %}
 
 国内网络访问 Github 速度过慢的原因有许多，但其中最直接的原因就是 CND 域名遭到 DNS 污染。
