@@ -53,8 +53,6 @@ CMake 本身是一款跨平台的 C/C++ 自动编译工具，只需要简单的�
 下面进入 VSCode + CMake 配置环节。
 ## 安装 CMake 及其插件
 
-{% image https://tvax2.sinaimg.cn/large/008kS6srly1hss9wr8wrqj30ur0r4qt3.jpg CMake 代码截图 %}
-
 使用 CMake 有几个前提：你的电脑需要有一个编译器（MSVC、GCC 或 CLang），一个项目生成器（Make 或 Visual Studio Generator）。
 
 我一般是在 Windows 上刷题写 C/C++，但为了和测试平台保持一致使用 GCC 编译器，所以我的电脑上已经安装了 MinGW（Windows 版 GCC）编译器，并且 VSCode 也安装了 C/C++ 插件。{% mark 不了解这一步的可以参考 %}[官方教程](https://code.visualstudio.com/docs/cpp/config-mingw)。
@@ -81,7 +79,7 @@ MinGW 还自带了一个 mingw32-make，这实际上就是一个改了名字的 
 
 但要是你的电脑上因为某种特殊原因已经有了 2017 或更高版本的 Visual Studio，那么就不要再去官网下载 CMake 了。因为你可以在 Visual Studio 中安装的【使用C++的桌面开发】工具包，包里附带了一个 CMake，并且这个 CMake 可以被 Visual Studio 和 VSCode 共用。
 
-{% image https://tvax1.sinaimg.cn/large/008kS6srly1hss9nv6wcyj316o0nygwe.jpg 安装【使用C++的桌面开发】 %}
+{% image /asserts/images/VSCode+CMake+C++/VS安装CMake.jpg 安装【使用C++的桌面开发】 %}
 
 如果你是通过官网下载的 CMake，可以运行下行命令验证。
 
@@ -91,13 +89,7 @@ MinGW 还自带了一个 mingw32-make，这实际上就是一个改了名字的 
 
 安装后的 CMake 本身只是一个工具包，直接使用不够方便。而 VSCode 插件市场中正好有两个 CMake 配套的必备插件：一款是由 twxs 开发的 CMake；另一款是微软官方提供的 [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)。
 
-{% image https://tvax3.sinaimg.cn/large/008kS6srly1hss81u5ix2j30to05yte8.jpg CMake（开发者：twxs） %}
-
-CMake 插件能够提供 CMake 配置文件的语法高亮和自动补全。
-
-{% image https://code.visualstudio.com/assets/docs/cpp/cpp/cmake-extension.png CMake Tools（开发者：Microsoft） %}
-
-CMake Tools 能够自动识别并关联到系统中的 CMake 工具，并提供快捷的 CMake 配置文件生成。
+CMake 插件能够提供 CMake 配置文件的语法高亮和自动补全。CMake Tools 能够自动识别并关联到系统中的 CMake 工具，并提供快捷的 CMake 配置文件生成。
 
 在 VSCode 中搜索安装这两个插件。
 ## 创建 CMake 工程
@@ -105,24 +97,24 @@ CMake Tools 能够自动识别并关联到系统中的 CMake 工具，并提供�
 新建一个 `demo` 文件夹，用 VSCode 打开。
 
 {% timeline color:white %}
-<!-- node 第一步：打开 VSCode 命令面板（按 F1），输入 CMake: Quick Start 并选择 -->
-{% image https://code.visualstudio.com/assets/docs/cpp/cpp/cmake-quickstart-command-palette.png %}
-<!-- node 第二步：在弹出栏中输入你的工程名 -->
-这里可以输入 demo。
-<!-- node 第三步：在弹出栏中选择 C++ 工程 -->
-{% image https://tvax1.sinaimg.cn/large/008kS6srly1hssba2hvcjj30kx037q3z.jpg %}
-<!-- node 第四步：在弹出栏中勾选 CTest 并确认 -->
-{% image https://code.visualstudio.com/assets/docs/cpp/cpp/cmake-quickstart-options.png %}
-<!-- node 第五步：在弹出栏中选择 Executable -->
-{% image https://code.visualstudio.com/assets/docs/cpp/cpp/cmake-choose-type.png %}
-<!-- node 第六步：在弹出栏中选择添加预设 -->
-{% image https://tvax4.sinaimg.cn/large/008kS6srly1hssba3km5dj30kp02fjsj.jpg %}
-<!-- node 第七步：在弹出栏中选择从编译器创建预设 -->
-{% image https://tvax1.sinaimg.cn/large/008kS6srly1hssba3o73tj30lc041jtq.jpg %}
-<!-- node 第八步：在弹出栏中选择 MinGW 编译器 -->
-{% image https://tvax2.sinaimg.cn/large/008kS6srly1hssba3tq5oj30ku066aei.jpg %}
-<!-- node 第九步：在弹出栏中为新预设创建一个名称 -->
-这里可以输入 g++。
+<!-- node 第一步 -->
+打开 VSCode 命令面板（按 F1），输入 CMake: Quick Start 并选择。
+<!-- node 第二步 -->
+在弹出栏中输入你的工程名，这里可以输入 demo。
+<!-- node 第三步 -->
+在弹出栏中选择 C++ 工程。
+<!-- node 第四步 -->
+在弹出栏中勾选 CTest 并确认。
+<!-- node 第五步 -->
+在弹出栏中选择 Executable。
+<!-- node 第六步 -->
+在弹出栏中选择添加预设。
+<!-- node 第七步 -->
+在弹出栏中选择从编译器创建预设。
+<!-- node 第八步 -->
+在弹出栏中选择 MinGW 编译器。
+<!-- node 第九步 -->
+在弹出栏中为新预设创建一个名称，这里可以输入 g++。
 {% endtimeline %}
 
 接着该项目下就会多出 `main.cpp`、`CMakeLists.txt` 和 `CMakePresets.json` 三个文件。`CMakeLists.txt` 定义了该项目的代码组织结构，而 `CMakePresets.json` 定义了该项目的环境配置。
