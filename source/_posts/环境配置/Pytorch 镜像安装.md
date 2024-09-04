@@ -6,13 +6,7 @@ categories:
   - 环境配置
 tags:
   - pytorch
-  - 安装
-  - 镜像
-  - 加速
   - 清华源
-  - tsinghua
-  - install
-  - mirror
 ---
 
 <p id='brief'>使用清华源镜像安装最新版 pytorch，含 CPU 版和 GPU 版的详细安装步骤</p>

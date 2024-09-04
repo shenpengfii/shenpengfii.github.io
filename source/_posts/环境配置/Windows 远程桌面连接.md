@@ -8,7 +8,6 @@ tags:
   - OpenFrp
   - 内网穿透
   - 远程桌面
-  - Windows
 references:
   - "[Microsoft,如何使用远程桌面](https://support.microsoft.com/zh-cn/windows/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2-5fe128d5-8fb1-7a23-3b8a-41e636865e8c#ID0EDD=Windows_11)"
   - "[鼎芯码元,体验Windows自带远程桌面 局域网&外网,2022-10-31](https://zhuanlan.zhihu.com/p/578914183)"

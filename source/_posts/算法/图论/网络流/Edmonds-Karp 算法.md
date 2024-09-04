@@ -1,19 +1,19 @@
 ---
-mathjax: true
-topic: algo_topic
+topic: flow
 title: Edmonds-Karp 算法
 subtitle: 介绍用于最大流问题的 Edmonds-Karp C++ 实现
 date: 2024-08-25 11:04:00
 categories:
   - 算法
+  - 图论
 tags:
   - Edmonds-Karp
   - Ford-Fulkerson
-  - C++
-  - 算法
 references:
-  - "[七喜,题解 P2740 【[USACO4.2]草地排水Drainage Ditches】,2019-01-05](https://www.luogu.com.cn/article/k5l808hx)"
   - "Thomas H.Cormen.,《算法导论》（第三版）"
+  - "俞勇,《ACM国际大学生程序设计竞赛——知识与入门》"
+  - "[七喜,题解 P2740 【[USACO4.2]草地排水Drainage Ditches】,2019-01-05](https://www.luogu.com.cn/article/k5l808hx)"
+mathjax: true
 ---
 
 <p id='brief'>介绍用于最大流问题的 Edmonds-Karp C++ 实现</p>
@@ -49,7 +49,7 @@ Edmonds-Karp 算法的时间复杂度为 $O(VE^2)$，其中 $|V|$ 表示顶点�
 
 <!-- node 第一点 -->
 
-算法原型中的流网络不允许存在反平行边，但在代码实现中则可以存在反平行边。在代码层使用反平行边等效于分别将两条边各计算一次。
+算法原型中的流网络不允许存在反平行边，但在代码实现中则可以存在反平行边。在代码层使用反平行边等效于分别将两条边在图中各计算一次。
 
 <!-- node 第二点 -->
 

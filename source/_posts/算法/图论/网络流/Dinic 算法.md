@@ -1,20 +1,19 @@
 ---
-mathjax: true
-topic: algo_topic
+topic: flow
 title: Dinic 算法
 subtitle: 介绍用于最大流问题的 Dinic C++ 实现
 date: 2024-08-29 13:27:23
 categories:
   - 算法
+  - 图论
 tags:
   - Dinic
   - Dinitz
-  - C++
-  - 算法
 references:
   - "[wikipedia,Dinic's algorithm](https://en.wikipedia.org/wiki/Dinic%27s_algorithm)"
   - "[Nishant Singh,Dinic’s algorithm for Maximum Flow,2023-03-13](https://www.geeksforgeeks.org/dinics-algorithm-maximum-flow/)"
   - "[ShusenWang,13-4: Dinic's Algorithm 寻找网络最大流,2021-06-10](https://www.bilibili.com/video/BV1j64y1R7yK/?spm_id_from=333.337.search-card.all.click&vd_source=52571ceef051ee05017e03e129308c71)"
+mathjax: true
 ---
 
 <p id='brief'>介绍用于最大流问题的 Dinic C++ 实现</p>

@@ -6,7 +6,6 @@ categories:
   - 环境配置
 tags:
   - Github
-  - 加速
 references:
   - "[ClimbSnail,多种GitHub加速方式,2020-08-07](https://climbsnail.github.io/2020/GithubSpeed/)"
   - "[天乐404,GitHub访问不了或者很慢的解决办法,2023-11-16](https://cloud.tencent.com/developer/article/2359332)"

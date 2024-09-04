@@ -8,7 +8,6 @@ tags:
   - VSCode
   - CMake
   - MinGW
-  - C/C++
 references:
   - "[Upppping,用VSCode和CMake编写调试C/C++,2019-07-22](https://www.jianshu.com/p/c3806d2ad1f8)"
   - "[svchao,windows下使用Mingw执行make编译,2021-08-26](https://www.cnblogs.com/svchao/p/15189660.html)"
