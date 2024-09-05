@@ -21,6 +21,18 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render: ''
 
+### 插件 ###
+# 站点地图
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: ./node_modules/hexo-generator-sitemap/sitemap.xml
+  template_txt: ./node_modules/hexo-generator-sitemap/sitemap.txt
+  rel: false
+  tags: true
+  categories: true
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
