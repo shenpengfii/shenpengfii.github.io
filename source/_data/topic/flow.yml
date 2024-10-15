@@ -1,4 +1,4 @@
-name: 网络流 # 在面包屑导航上会显示较短的名字
-title: 算法竞赛系列之网络流 # 在列表页会显示完整的专栏标题
-description: 使用现代 C++ 标准实现程序设计算法。
+name: Flow # 在面包屑导航上会显示较短的名字
+title: Network Flow Column # 在列表页会显示完整的专栏标题
+description: Illustrate network flow algorithm theories and their implementations in modern C++.
 order_by: -date # 默认是按发布日期倒序排序
