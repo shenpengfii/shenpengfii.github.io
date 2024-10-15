@@ -21,6 +21,6 @@ auto fib = [](auto&& fib, int n) {
 
 // Practice
 int main() {
-    fib(7, fib);
+    fib(fib, 7);
 }
 ```
