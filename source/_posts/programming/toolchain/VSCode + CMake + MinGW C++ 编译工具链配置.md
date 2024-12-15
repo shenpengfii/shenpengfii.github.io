@@ -3,7 +3,8 @@ title: VSCode + CMake + MinGW C++ 工具链配置
 subtitle: Windows 环境下使用 VSCode 组织 C++ 工程，并通过 CMake 调用 MinGW 编译（不使用 MSVC 编译器）
 date: 2024-08-18 16:47:12
 categories:
-  - 环境配置
+  - programming
+  - toolchain
 tags:
   - VSCode
   - CMake

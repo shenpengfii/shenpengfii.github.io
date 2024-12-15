@@ -3,7 +3,8 @@ title: QT6 + OpenCV 镜像安装教程
 subtitle: 使用中科大源安装 QT Online Creator，并为项目配置 OpenCV 环境
 date: 2024-10-03 13:28:38
 categories:
-  - 环境配置
+  - programming
+  - toolchain
 tags:
   - QT
   - OpenCV

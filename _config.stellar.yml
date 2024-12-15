@@ -29,7 +29,7 @@ comments:
     data-emit-metadata: 0
     data-input-position: top # top, bottom
     data-theme: light_protanopia
-    data-lang: zh-CN
+    data-lang: en
     data-loading: lazy
     crossorigin: anonymous
 
@@ -44,8 +44,8 @@ style:
       code: 90% # 相较于其所在行的文本大小，建议用百分比
       codeblock: 13px
   font-family:
-      logo: '"LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
-      body: '"LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+      logo: '"Open Sans", "LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+      body: '"Open Sans", "LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
       code: '"Fira Code Light", Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
       codeblock: '"Fira Code", Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
   border-radius:

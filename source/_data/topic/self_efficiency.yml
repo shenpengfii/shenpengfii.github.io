@@ -1,4 +1,0 @@
-name: Efficacy # 在面包屑导航上会显示较短的名字
-title: Self-Efficacy Column # 在列表页会显示完整的专栏标题
-description: Unlock the secrets to enhancing self-efficacy and embark on a journey towards a more fulfilling life.
-order_by: -date # 默认是按发布日期倒序排序
