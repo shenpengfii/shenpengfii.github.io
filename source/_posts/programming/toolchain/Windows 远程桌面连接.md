@@ -3,7 +3,8 @@ title: Windows 远程桌面连接教程
 subtitle: OpenFrp 内网穿透 + Windows 远程桌面服务，实现低延迟远程桌面控制
 date: 2024-07-28 22:16:32
 categories:
-  - 环境配置
+  - programming
+  - toolchain
 tags:
   - OpenFrp
   - 内网穿透

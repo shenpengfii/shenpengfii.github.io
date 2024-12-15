@@ -3,7 +3,8 @@ title: Pytorch 镜像安装教程（Win10/11）
 subtitle: 使用清华源镜像安装最新版 pytorch，含 CPU 版和 GPU 版的详细安装步骤
 date: 2024-07-15 16:36:32
 categories:
-  - 环境配置
+  - programming
+  - toolchain
 tags:
   - pytorch
   - 清华源
@@ -22,7 +23,7 @@ tags:
 
 <!-- tab 最新 CPU 版 Pytorch 安装 -->
 
-{% copy pip install torch torchvision torchaudio -i https://pypi.tuna.tsinghua.edu.cn/simple | sh prefix:$ %}
+{% copy pip install torch torchvision torchaudio -i https://pypi.tuna.tsinghua.edu.cn/simple prefix:$ %}
 
 <!-- tab GPU 版 Pytorch 2.3.1 安装（For Python 3.12） -->
 
@@ -31,10 +32,10 @@ tags:
 {% tabs active:1 %}
 
 <!-- tab Pytorch 2.3.1 - CUDA 11.8 (For Python 3.12) -->
-{% copy conda install pytorch=2.3.1=py3.12_cuda11.8_cudnn8_0 torchvision=0.18.1=py312_cu118 torchaudio=2.3.1=py312_cu118 pytorch-cuda=11.8 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/win-64 -c nvidia | sh prefix:$ %}
+{% copy conda install pytorch=2.3.1=py3.12_cuda11.8_cudnn8_0 torchvision=0.18.1=py312_cu118 torchaudio=2.3.1=py312_cu118 pytorch-cuda=11.8 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/win-64 -c nvidia prefix:$ %}
 
 <!-- tab Pytorch 2.3.1 - CUDA 12.1 (For Python 3.12) -->
-{% copy conda install pytorch=2.3.1=py3.12_cuda12.1_cudnn8_0 torchvision=0.18.1=py312_cu121 torchaudio=2.3.1=py312_cu121 pytorch-cuda=12.1 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/win-64 -c nvidia | sh prefix:$ %}
+{% copy conda install pytorch=2.3.1=py3.12_cuda12.1_cudnn8_0 torchvision=0.18.1=py312_cu121 torchaudio=2.3.1=py312_cu121 pytorch-cuda=12.1 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/win-64 -c nvidia prefix:$ %}
 
 {% endtabs %}
 
@@ -97,7 +98,7 @@ Pytorch 共有 CPU 版和 GPU 版两个发行版本。GPU 版本一般运算速�
 
 ## 使用清华源镜像安装Pytorch（Win10/11）
 
-{% tabs active:1 %}
+{% tabs active:2 %}
 
 <!-- tab 无 Nvidia 显卡者，入此门 -->
 
